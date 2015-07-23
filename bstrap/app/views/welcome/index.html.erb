@@ -1,0 +1,9 @@
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6 output">
+      <h1><%= @greeting %><%= @name.capitalize %></h1>
+    <%=image_tag "111_1.png" %>
+      <div class="link">
+        <%= link_to "Goodbye", goodbye_path(:name => @name) %>
+      </div>
